@@ -117,19 +117,20 @@ coming soon
 coming soon
 
 ### Setup
-You can download the page by clicking in the code green button and select Download ZIP or if you are a developer. You can get the https link or ssh link just copy it and use your favourite command line git interface and write this `https://github.com/mohamed20163858/hello-rails-react.git` if you use https or write `git@github.com:mohamed20163858/hello-rails-react.git` if you use ssh
+You can download the page by clicking in the code green button and select Download ZIP or if you are a developer. You can get the https link or ssh link just copy it and use your favourite command line git interface and write this `git clone https://github.com/mohamed20163858/hello-rails-back-end.git` if you use https or write `git clone git@github.com:mohamed20163858/hello-rails-back-end.git` if you use ssh then 
+then download [hello_react_front_end_repo](https://github.com/mohamed20163858/hello-react-front-end) by navigating to it and alternavely using git command `git clone https://github.com/mohamed20163858/hello-react-front-end.git`  if u are using https or `git clone git@github.com:mohamed20163858/hello-react-front-end.git` if u are using ssh
 
 ### Usage
 
-To run the project just open your terminal, then change the directory to the location of this repo using this command `cd file_path`, and finally run this command `gem install rails` then `bin/dev`.
+To run the project just open your terminal, then change the directory to the location of hello-rails-back-end repo using this command `cd file_path`, and finally run this command `bundle i` then `rails s`.
+then open a new terminal change the directery to the location of hello-reacr-front-end repo and run this command `npm start`
 
 
 ### Install
-
-type : cd hello-rails-react
+for hello-rails-back-end terminal
+type : cd hello-rails-back-end
 
 Type : bundle install
-Type : npm i
 
 Then change the username and password within the database.yml and set yours.
 
@@ -140,12 +141,20 @@ Run:
 - rails db:create
 - rails db:migrate
 
+for hello-react-front-end terminal
+
+type : cd hello-react-front-end 
+Type : npm i
+
 ### Usage
 
 To run the project, execute the following command:
 
-**./bin/dev**
+in hello-rails-back-end terminal
+Type: rails s 
 
+in hello-react-front-end terminal 
+Type: npm start
 
 <!-- AUTHORS -->
 
